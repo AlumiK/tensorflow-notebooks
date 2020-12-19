@@ -1,6 +1,6 @@
-name: tf2
+name: tf2-notebooks
 dependencies:
-  - cudatoolkit=10.1
+  - cudatoolkit=10.2
   - cudnn
   - scikit-learn
   - pandas
@@ -8,5 +8,5 @@ dependencies:
   - jupyter
   - pip
   - pip:
-    - tensorflow
-    - tensorflow-probability
+    - tensorflow==2.3.2
+    - tensorflow-probability~=0.11
